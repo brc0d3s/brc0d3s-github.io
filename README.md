@@ -6,7 +6,52 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+				body,
+		html {
+		  width: 100%;
+		  height: 100%;
+		  font-family: 'Montserrat', sans-serif;
+		   color: yellow ;
+		  background: url(img/anon.jpg) center; 
+		   background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+
+
+		}
+
+
+		header {
+		   background-color: #ffffff;
+		    position: fixed;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    height: 75px;
+		    display: flex;
+		    align-items: center;
+		}
+
+
+		header img {
+			height: 75px;
+			margin-left: 50px;
+			margin-right: 70px ;
+		}
+
+
+		header * {
+			display: inline;
+			text-decoration: none;
+			color: limegreen;
+		}
+
+		.nav {
+			padding: 40px;
+		}
+
+	</style>		
 	<title>brc0d3s A blacksec the ghost story</title>
     <link rel="icon" type="image/x-icon" href="img/brc0d3s.png">
 </head>
